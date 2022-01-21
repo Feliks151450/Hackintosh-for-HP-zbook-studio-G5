@@ -5,47 +5,37 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleGetInfoString</key>
-	<string>1.0 Copyright © 2018-2020 Headsoft. All rights reserved.</string>
+	<string>v1.1</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.Headsoft.USBPorts</string>
+	<string>com.dhinakg.USBToolBox.map</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>USBPorts</string>
+	<string>UTBMap</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>MacBookPro15,3-TXHC</key>
+		<key>TXHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<string>com.dhinakg.USBToolBox.kext</string>
 			<key>IOClass</key>
-			<string>AppleUSBMergeNub</string>
+			<string>USBToolBox</string>
+			<key>IOMatchCategory</key>
+			<string>USBToolBox</string>
 			<key>IONameMatch</key>
 			<string>TXHC</string>
-			<key>IOPCIPrimaryMatch</key>
-			<string>0x15ec8086</string>
-			<key>IOProbeScore</key>
-			<integer>5000</integer>
 			<key>IOProviderClass</key>
-			<string>AppleUSBXHCITR</string>
+			<string>IOPCIDevice</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
-				<key>kUSBSleepPortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBSleepPowerSupply</key>
-				<integer>5100</integer>
-				<key>kUSBWakePortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBWakePowerSupply</key>
-				<integer>5100</integer>
 				<key>port-count</key>
 				<data>
 				BAAAAA==
@@ -56,8 +46,6 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>9</integer>
-						<key>name</key>
-						<string>SS01</string>
 						<key>port</key>
 						<data>
 						AwAAAA==
@@ -67,8 +55,6 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>9</integer>
-						<key>name</key>
-						<string>SS02</string>
 						<key>port</key>
 						<data>
 						BAAAAA==
@@ -76,33 +62,21 @@
 					</dict>
 				</dict>
 			</dict>
-			<key>model</key>
-			<string>MacBookPro15,3</string>
 		</dict>
-		<key>MacBookPro15,3-XHC</key>
+		<key>XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<string>com.dhinakg.USBToolBox.kext</string>
 			<key>IOClass</key>
-			<string>AppleUSBMergeNub</string>
+			<string>USBToolBox</string>
+			<key>IOMatchCategory</key>
+			<string>USBToolBox</string>
 			<key>IONameMatch</key>
 			<string>XHC</string>
-			<key>IOPCIPrimaryMatch</key>
-			<string>0xa36d8086</string>
-			<key>IOProbeScore</key>
-			<integer>5000</integer>
 			<key>IOProviderClass</key>
-			<string>AppleIntelCNLUSBXHCI</string>
+			<string>IOPCIDevice</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
-				<key>kUSBSleepPortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBSleepPowerSupply</key>
-				<integer>5100</integer>
-				<key>kUSBWakePortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBWakePowerSupply</key>
-				<integer>5100</integer>
 				<key>port-count</key>
 				<data>
 				FAAAAA==
@@ -112,9 +86,7 @@
 					<key>HS01</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>HS01</string>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						BAAAAA==
@@ -123,9 +95,7 @@
 					<key>HS02</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>HS02</string>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						BQAAAA==
@@ -135,8 +105,6 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>255</integer>
-						<key>name</key>
-						<string>HS03</string>
 						<key>port</key>
 						<data>
 						BwAAAA==
@@ -146,8 +114,6 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>9</integer>
-						<key>name</key>
-						<string>HS04</string>
 						<key>port</key>
 						<data>
 						CwAAAA==
@@ -157,8 +123,6 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>9</integer>
-						<key>name</key>
-						<string>HS05</string>
 						<key>port</key>
 						<data>
 						DQAAAA==
@@ -168,8 +132,6 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>255</integer>
-						<key>name</key>
-						<string>HS06</string>
 						<key>port</key>
 						<data>
 						DgAAAA==
@@ -179,8 +141,6 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
-						<key>name</key>
-						<string>SS01</string>
 						<key>port</key>
 						<data>
 						EwAAAA==
@@ -190,8 +150,6 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
-						<key>name</key>
-						<string>SS02</string>
 						<key>port</key>
 						<data>
 						FAAAAA==
@@ -199,9 +157,12 @@
 					</dict>
 				</dict>
 			</dict>
-			<key>model</key>
-			<string>MacBookPro15,3</string>
 		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.dhinakg.USBToolBox.kext</key>
+		<string>1.0.0</string>
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Root</string>

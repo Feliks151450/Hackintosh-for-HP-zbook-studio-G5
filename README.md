@@ -20,4 +20,3 @@ This laptop makes a pretty good hackintosh and supports next to all features, I'
  2. HDMI port (wired to NVIDIA, thus it's dead)
  3. Cardreader (sadly PCI and not USB, can't find drivers)
  4. Thunderbolt (got no devices to test, but hotplug is not patched yet)
- 5. USB2.0 (possibly supports USB3.0 only)
