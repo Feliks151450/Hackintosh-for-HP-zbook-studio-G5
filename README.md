@@ -1,7 +1,8 @@
 # HP ZBOOK G5 STUDIO EFI
-This laptop makes a pretty good hackintosh and supports next to all features, I'm still working on it. It's reliable so far and got good battery life.
+This laptop makes a pretty good hackintosh and supports next to all features, I'm still working on it. It's reliable so far and got good battery life. 
 
 # What works
+ Supporting MacOS 12
  UHD630 with 1536MB VRAM
  Brightness controls
  USB type A ports (2.0 & 3.0)
