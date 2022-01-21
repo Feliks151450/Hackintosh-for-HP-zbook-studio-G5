@@ -3,6 +3,7 @@ This laptop makes a pretty good hackintosh and supports next to all features, I'
 
 # What works
  Supporting MacOS 12
+ i7 8750H
  UHD630 with 1536MB VRAM
  Brightness controls
  USB type A ports (2.0 & 3.0)
