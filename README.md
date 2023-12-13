@@ -13,7 +13,7 @@ This laptop makes a pretty good hackintosh and supports next to all features, I'
  9. I2C Synaptics trackpad, up to 5 finger gestures
  10. PS2 keyboard, remappings through karabiner
  11. Battery management
- 12. USB type C data and video
+ 12. USB type C data and charging
  13. Supporting Sidecar using type-c cable
 # What doesn't
  1. Airdrop (works if repaced with suitable hardware)
